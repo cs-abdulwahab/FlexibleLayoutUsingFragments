@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FlexibleLayoutUsing Fragments</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="MobileSections">
+
+        <item>" Mobile A"</item>
+        <item>" Mobile B"</item>
+        <item>" Mobile C"</item>
+        <item>" Mobile D"</item>
+        <item>" Mobile E"</item>
+        <item>" Mobile F"</item>
+
+    </string-array>
+
+    <string-array name="MobSecDetail">
+
+        <item>" Mobile A Description Mobile A Description Mobile A Description Mobile A Description Mobile A Description "</item>
+        <item>" Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B  Mobile B "</item>
+        <item>" Mobile C Description  Mobile C Description  Mobile C Description  Mobile C Description  Mobile C Description  Mobile C Description  Mobile C Description "</item>
+        <item>" Mobile D Description  Mobile D Description  Mobile D Description  Mobile D Description  Mobile D Description  Mobile D Description  Mobile D Description "</item>
+        <item>" Mobile E Description  Mobile E Description  Mobile E Description  Mobile E Description  Mobile E Description  Mobile E Description  Mobile E Description  Mobile E Description  Mobile E Description "</item>
+        <item>" Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F Description  Mobile F "</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
