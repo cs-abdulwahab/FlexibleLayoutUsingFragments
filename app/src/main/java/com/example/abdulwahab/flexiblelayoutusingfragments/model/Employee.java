@@ -1,7 +1,9 @@
 package com.example.abdulwahab.flexiblelayoutusingfragments.model;
 
 
-public class Employee {
+import java.io.Serializable;
+
+public class Employee implements Serializable {
     public final int id;
     public final String name;
     public final String details;

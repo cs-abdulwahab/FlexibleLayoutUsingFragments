@@ -2,7 +2,9 @@ package com.example.abdulwahab.flexiblelayoutusingfragments;
 
 import android.app.Fragment;
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Configuration;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -33,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements MasterFragment.IM
             case Configuration.ORIENTATION_LANDSCAPE:
                 return true;
             case Configuration.ORIENTATION_PORTRAIT:
-                return true;
+                return false;
             default:
                 return false;
         }
@@ -50,6 +52,12 @@ public class MainActivity extends AppCompatActivity implements MasterFragment.IM
 
             detailFragment.setEmployeeDetail(employee);
         } else {
+
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("emp", employee);
+
+            startActivity(intent);
+
 
             Log.d(TAG, "POTRAIT   MasterClick() called with: employee = [" + employee + "]");
         }
