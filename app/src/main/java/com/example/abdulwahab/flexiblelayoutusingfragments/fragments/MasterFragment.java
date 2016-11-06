@@ -18,14 +18,14 @@ import com.example.abdulwahab.flexiblelayoutusingfragments.model.Employee;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivityFragment extends Fragment {
+public class MasterFragment  extends Fragment {
 
     IMasterListListener iMasterListListener;
 
     ListView listFrag;
     private EmployeeAdapter employeeAdapter;
 
-    public MainActivityFragment() {
+    public MasterFragment() {
     }
 
     @Override
