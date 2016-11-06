@@ -12,4 +12,14 @@
 	tools:context="com.example.abdulwahab.flexiblelayoutusingfragments.DetailActivity"
 	>
 
+	<fragment
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		android:name="com.example.abdulwahab.flexiblelayoutusingfragments.fragments.DetailFragment"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentStart="true"
+		android:id="@+id/fragmentDetail"
+		tools:layout="@layout/fragment_detail"
+		/>
 </RelativeLayout>
